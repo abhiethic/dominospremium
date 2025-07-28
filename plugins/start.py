@@ -118,18 +118,18 @@ async def start_command(client: Bot, message: Message):
     else:
         # ELSE part for non-premium users
         text = (
-            f"Hey👋👋\n\n"
-            "❌ You are Not a Premium Member.\n"
-            "So, You Can't Access this Video/Post 🎥 Directly.\n\n"
-            "If you want to Join in Premium Membership ⭐, Then Click on Premium Membership Info Button.\n\n"
-            "⚠️ *Note:* If you already purchased Premium Membership & facing this issue, "
-            "then contact us via the 'Need Help' button."
+            f"👑 Premium Access Required❗\n\n"
+"🔓 Unlock full access to videos and premium content 🔥 with just one tap!\n\n"
+"🔥 To unlock Exclusive Content :-\n\n"
+"1️⃣ Choose a premium plan below.\n"
+"2️⃣ Enjoy unlimited access instantly!\n\n"
+"✨ Upgrade now and enjoy full access to all exclusive content!"
+
         )
 
         buttons = [
-            [InlineKeyboardButton("Buy XO Premium Membership", url="https://example.com/buy")],
-            [InlineKeyboardButton("Premium Membership Info", url="https://example.com/info")],
-            [InlineKeyboardButton("Need Help", url="https://example.com/help")]
+            [InlineKeyboardButton("Get Premium", url="https://t.me/angelicfraud")],
+            [InlineKeyboardButton("Need Help", url="https://t.me/angelicfraud")]
         ]
 
         reply_markup = InlineKeyboardMarkup(buttons)
