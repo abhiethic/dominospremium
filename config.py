@@ -30,12 +30,12 @@ PORT = os.environ.get("PORT", "")
 #BOT USERNAME
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
 
-CONTACT_USERNAME = os.environ.get("CONTACT_USERNAME", "")
+CONTACT_USERNAME = os.environ.get("CONTACT_USERNAME", "@angelicfraud")
 
 #premium url
-BUY_URL = os.environ.get("BUY_URL", "https://t.me/SnappyHeavenMembershipBot?start")
-BUY_TEXT = os.environ.get("BUY_TEXT", "Hey👋 !\n\n<blockquote><b>what is Prime Membership?</b>\n\n Prime Membership is a Plan in which you can direct access the content without watching any Token Ads.</blockquote>\n\n<b>🎖️ Available Plans :</b>\n\n✅ Monthly : ₹59 / 30 Days\n\n<b>✅Payment Option :</b> UPI Accepted\n\n\n<b>♻️ How to Buy Prime Membership -</b> \n\n1. Click on Buy Membership Button & Start the bot\n2. Select the payment Method.\n3. Pay using Upi & Scan QR Code.\n4. Upload payment Screenshot..\n\n<b>📩 For any Query contact @PizzaOwnerXBot</b>")
-ADMIN_URL = os.environ.get("ADMIN_URL", "https://t.me/PizzaOwnerXBot")
+BUY_URL = os.environ.get("BUY_URL", "https://t.me/angelicfraud")
+BUY_TEXT = os.environ.get("BUY_TEXT", "Hey👋 !\n\n<blockquote><b>what is Prime Membership?</b>\n\n Prime Membership is a Plan in which you can direct access the content without watching any Token Ads.</blockquote>\n\n<b>🎖️ Available Plans :</b>\n\n✅ Monthly : ₹59 / 30 Days\n\n<b>✅Payment Option :</b> UPI Accepted\n\n\n<b>♻️ How to Buy Prime Membership -</b> \n\n1. Click on Buy Membership Button & Start the bot\n2. Select the payment Method.\n3. Pay using Upi & Scan QR Code.\n4. Upload payment Screenshot..\n\n<b>📩 For any Query contact @angelicfraud</b>")
+ADMIN_URL = os.environ.get("ADMIN_URL", "https://t.me/angelicfraud")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "")
@@ -44,8 +44,8 @@ JOIN_REQS_DB1 = environ.get("JOIN_REQS_DB1", DB_URI)
 JOIN_REQS_DB2 = environ.get("JOIN_REQS_DB2", DB_URI)
 
 #force sub channel id, if you want enable force 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
