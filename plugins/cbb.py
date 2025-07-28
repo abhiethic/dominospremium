@@ -13,11 +13,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text=(
                 "<b>⟦⟧ Hi there! 👋\n"
                 "┏━━━━━━━❪❂❫━━━━━━━\n"
-                f"◈ Creator : @{CONTACT_USERNAME}\n"
+                f"◈ Creator : @{angelicfraud}\n"
                 "◈ Language : Python 3\n"
                 "◈ Library : <a href='https://github.com/pyrogram/pyrogram'>Pyrogram</a>\n"
                 "◈ My Server : VPS Server\n"
-                f"◈ Developer : @{CONTACT_USERNAME}\n"
+                f"◈ Developer : @{angelicfraud}\n"
                 "┗━━━━━━━❪❂❫━━━━━━━</b>"
             ),
             disable_web_page_preview = True,
